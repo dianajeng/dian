@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.header {
+    background-color: blue;
+}
+
+.main {
+    background-color: purple;
+}
+
+.footer {
+    background-color: green;
+}
+
+/* header section */
+nav {
+    background-color: pink;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 80px;
+}
+
+.box-content {
+    width: 200px;
+
+    height: 100%;
+
+    /* background: yellow; */
+
+    margin: 5px;
+}
+
+.brand {
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+/* futilities flexbox */
+.flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexbox-col {
+    flex-direction: column;
+}
+/*  */
+
+.box-content li{
+    list-style: none;
+    margin: 0 5px;
+}
+
+.box-content li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    background-color: pink;
+    padding: 20px 80px;
+}
+
+/* hero section */
+.hero{
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    gap: 20px;
+}
+
+.box-hero {
+    background-color: pink;
+    height: 300px;
+    width: 500px;
+}
+
+.box-hero img {
+    height: 100%;
+    width: 100%;
+}
+
+.box-hero p, h1, h3 {
+    text-align: left;
+    width: 100%;
+    margin: 8px;
+}
+
+.box-hero button {
+    background-color: yellow;
+    color: green;
+    padding: 17px 28px;
+    font-size: 8px;
+
+    border-radius: 18px;
+    border: none;
+    transition: 500ms;
+}
+
+.box-hero button:hover {
+    background-color: white;
+    transition: 500ms;
+}
+
